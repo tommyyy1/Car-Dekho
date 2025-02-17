@@ -27,10 +27,11 @@ Standardizing Data Formats:
 Convert string-based numerical data (e.g., "70 kms") to integers.
 Encoding Categorical Variables:
 Apply one-hot encoding and label encoding where necessary.
-Normalizing Numerical Features:Use Standard Scaling.
+Normalizing Numerical Features:Used Standard Scaling.
 
 Removing Outliers:
-Apply IQR analysis.
+Removed mixed data types which resulted in removing many columns and most of the columns are repeatative. 
+Filtered values before applying IQR analysis.
 Exploratory Data Analysis (EDA)
 
 Descriptive Statistics:
@@ -40,7 +41,7 @@ Data Visualization:
 Generate scatter plots, histograms, box plots, and correlation heatmaps.
 
 Feature Selection:
-Use correlation analysis and feature importance techniques.
+Use correlation analysis and feature importance techniques using extra tree regressor.
 
 Model Development
 Train-Test Split:
