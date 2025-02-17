@@ -86,8 +86,7 @@ An interactive Streamlit web application for real-time price predictions.
 Installation & Usage
 
 Clone the repository:
-git clone https://github.com/yourusername/CarDheko-PricePrediction.git
-cd CarDheko-PricePrediction
+git clone https://github.com/tommyyy1/Car-Dekho?tab=readme-ov-file
 
 Install dependencies:
 pip install -r requirements.txt
